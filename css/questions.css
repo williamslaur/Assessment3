@@ -1,0 +1,45 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+/* Global Default Style */
+body{
+    font-size:12px;
+}
+@media screen and (max-width:960px) {
+    /* Large Screen Style */
+    body{
+        font-size:14px;
+    }
+}        
+
+
+
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+
+/* Global Default Style */
+body{
+    font-size:16px;
+}
+@media screen and (min-width:720px) {
+    /* Medium Plus Screen Style */
+    body{
+        font-size:12px;
+    }
+}
+
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+*/
+ 
+I understand what themes can be used for - but not sure that we have had an opportunity to use them enough 
+to truly understand how they work. And would like to work with extending a little more
+
+/*
+    Q4 - What is the best CSS property and why?
+*/
+
+really like the idea of nesting the css properties to cut down on the amount of code to have to enter - just need some more practice
